@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="AltSchool Africa sign-up form" />
+    <title>AltSchool Sign-up Form</title>
+  </head>
+
+  <body>
+    <header id="top">
+      <nav aria-label="Global navigation">
+        <a href="index.html">Home</a> |
+        <a href="form.html" aria-current="page">Sign-up Form</a>
+      </nav>
+
+      <h2>AltSchool</h2>
+
+      <nav aria-label="Account navigation">
+        <a href="#signup">Sign up</a> |
+        <a href="#">Sign in</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="signup" aria-labelledby="signup-heading">
+        <h1 id="signup-heading">Sign up</h1>
+        <p>Create an account to get started on your learning journey.</p>
+
+        <aside aria-label="Important sign-up information">
+          <p>
+            <strong>Important:</strong>
+            Your name will appear on your certificate exactly as entered.
+          </p>
+        </aside>
+
+        <form action="#" method="post">
+          <p>
+            <label for="email">Email</label><br />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="john.doe@example.com"
+              autocomplete="email"
+              required
+            />
+          </p>
+
+          <p>
+            <label for="first-name">First name</label><br />
+            <input
+              type="text"
+              id="first-name"
+              name="first_name"
+              placeholder="John"
+              autocomplete="given-name"
+              required
+            />
+          </p>
+
+          <p>
+            <label for="last-name">Last name</label><br />
+            <input
+              type="text"
+              id="last-name"
+              name="last_name"
+              placeholder="Doe"
+              autocomplete="family-name"
+              required
+            />
+          </p>
+
+          <p>
+            <label for="phone">Phone number</label><br />
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              placeholder="+1234567890"
+              autocomplete="tel"
+              required
+            />
+          </p>
+
+          <p>
+            <label for="password">Password</label><br />
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="********"
+              minlength="8"
+              autocomplete="new-password"
+              aria-describedby="password-help"
+              required
+            />
+            <br />
+            <small id="password-help">
+              Password must contain at least 8 characters.
+            </small>
+          </p>
+
+          <p>
+            By clicking Create account, I agree to the
+            <a href="#">Terms of Use</a> and acknowledge that I have read the
+            <a href="#">Privacy Policy</a>.
+          </p>
+
+          <p>
+            <button type="submit">Create account &rarr;</button>
+          </p>
+        </form>
+
+        <p>-------- OR ---------</p>
+
+        <p>
+          <button type="button">G &nbsp; Login with Google</button>
+        </p>
+      </section>
+
+      <p><a href="#top">Back to top</a></p>
+    </main>
+
+    <footer>
+      <address>
+        Lagos, Nigeria<br />
+        Email:
+        <a href="mailto:izziyyahbolarinwa@gmail.com"
+          >izziyyahbolarinwa@gmail.com</a
+        >
+      </address>
+      <p>&copy; 2026 Izziyyah Rasheed Bolarinwa. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
